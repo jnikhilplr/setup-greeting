@@ -1,0 +1,13 @@
+name: 'setup-greeting'
+description: 'Greet someone and record the time'
+inputs:
+  name:  # id of input
+    description: 'Name of person'
+    required: true
+    default: 'Nikhil'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node20'
+  main: 'index.js'
